@@ -93,5 +93,77 @@
 .header-btn button:hover {
     background-color: #f90132;
     border: 2px solid #f90132;
-    padding: 11px 20px 13px;
+    margin-top: -4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-area {
+    background-color: #090909;
+    padding: 20px 0;
+}
+.footer-wrapper {
+    width: 90%;
+    margin: auto;
+}
+.footer-row {
+    display: flex;
+    align-items: center;
+}
+.footer-row .footer-col {
+    width: 33.33%;
+}
+.footer-logo { 
+}
+.f-social-share {
+    text-align: center;
+}
+.f-social-share ul {
+    list-style: none;
+}
+.f-social-share ul li {
+    display: inline;
+    margin: 0px 6px;
+}
+.f-social-share ul li a {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    width: 60px;
+    height: 60px;
+    color: #989ba6;
+    border: 2px solid #989ba6;
+    border-radius: 50%;
+    transition: 0.5s all;
+}
+.f-social-share ul li a i {
+    position: absolute;
+    font-size: 18px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+   
+}
+
+.f-social-share ul li:hover a{
+    background-color: #f90132;
+    border: 2px solid #f90132;
+    color: #ffffff;
+}
+.footer-text {
+    text-align: right;
+}
+.footer-text p {
+    color: #ffffff;
+    font-size: 14px;
 }
