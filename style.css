@@ -247,6 +247,167 @@
     font-weight: normal;
 }
 
+.service-area {
+    padding: 100px 0;
+    background-color: #090909;
+}
+.service-wrapper {
+    width: 90%;
+    margin: auto;
+}
+.section-info {
+    text-align: center;
+    margin-bottom: 24px;
+}
+.section-info h1 {
+    font-size: 50px;
+    color: #ffffff;
+    margin-bottom: 12px;
+}
+.section-info p {
+    color: #9a998d;
+    line-height: 1.7em;
+    font-size: 19px;
+    width:50%;
+    margin: auto;
+}
+.service-row {
+    overflow: hidden;
+}
+.service-col {
+    width: 31.33%;
+    float: left;
+    margin: 1%
+}
+.service-box {
+    color: #ffffff;
+    padding: 40px;
+    background-color: #191919;
+    border-radius: 8px;
+    transition: 0.5s all;
+}
+.service-box:hover {
+    background-color: #f90132;
+    transform: translateY(-4px);
+}
+.service-box:hover .icon i {
+    color: #ffffff;
+}
+.service-box:hover p {
+    color: #ffffff;
+}
+.service-box .icon i {
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: #f90132;
+}
+.service-box h3 {
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.service-box p {
+    font-size: 19px;
+    line-height: 1.6em;
+    color: #989ba6;
+    letter-spacing: 1px;
+}
+.project-area {
+    padding: 100px 0;
+    background-color: #191919;
+}
+.project-wrapper {
+    width: 90%;
+    margin: auto;
+}
+.project-row {
+    overflow: hidden;
+}
+.project-col {
+    width: 31.33%;
+    float: left;
+    margin: 1%;
+}
+.project {
+    position: relative;
+    background: #ffffff;
+    min-height: 500px;
+    background-image: url(images/portfolio-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.project-col:nth-child(2) .project {
+    background-image: url(images/portfolio-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.project-col:nth-child(3) .project {
+    background-image: url(images/portfolio-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.project-col:nth-child(4) .project {
+    background-image: url(images/portfolio-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.project-col:nth-child(5) .project {
+    background-image: url(images/portfolio-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.project-col:nth-child(6) .project {
+    background-image: url(images/portfolio-6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.project .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45));
+    transition: 0.1s all !important;
+}
+.project:hover .overlay {
+    background-image: linear-gradient(#f90132,transparent);
+}
+.project .content {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 30px;
+}
+.project .content p {
+    font-size: 19px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    color: #989ba6;
+}
+.project .content h4 {
+    margin-bottom: 30px;
+    font-size: 26px;
+}
+.project .content h4 a {
+    text-decoration: none;
+    color: #fff;
+}
+.project .content .btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px 20px;
+    color: #ffffff;
+    border: 2px solid #989ba6;
+    background: transparent;
+    text-transform: uppercase;
+    border-radius: 6px;
+    transition: 0.5s all;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+
 
 
 
