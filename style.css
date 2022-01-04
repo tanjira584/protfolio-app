@@ -135,6 +135,119 @@
 }
 
 
+.about-area {
+    padding: 100px 0;
+    background-color: #191919;
+}
+.about-wrapper {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+.about-left {
+    width: 40%;
+}
+.about-right {
+    width: 60%;
+}
+.about-left .my-img {
+    width: 100%;
+}
+.my-img img {
+    width: 100%;
+}
+
+.about-content {
+    margin-left: 50px;
+}
+.about-content h1 {
+    font-size: 50px;
+    text-transform: capitalize;
+    color: #ffffff;
+    margin-bottom: 26px;
+    font-weight: bold;
+}
+.about-content p {
+    font-size: 19px;
+    line-height: 1.7em;
+    color: #9a998d;
+    letter-spacing: 1px;
+}
+.my-qualification {
+    margin-top: 30px;
+}
+.tab-btns {
+    margin-bottom: 20px;
+}
+.tab-btns ul {
+    list-style: none;
+}
+.tab-btns ul li{
+    display: inline-block;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 12px;
+    margin-right: 10px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    border-bottom: 2px solid transparent;
+    transition: 0.5s all;
+}
+.tab-btns ul li:hover {
+    color: #f90132;
+    border-bottom: 2px solid #f90132;
+}
+.tab-btns ul li.active {
+    color: #f90132;
+    border-bottom: 2px solid #f90132;
+}
+.tab-panel .main-skill {
+    display: block;
+}
+.tab-panel .awards {
+    display: none;
+}
+.tab-panel .experience {
+    display: none;
+}
+.tab-panel .education {
+    display: none;
+}
+.tab-panel .main-skill ul,
+.tab-panel .awards ul,
+.tab-panel .experience ul,
+.tab-panel .education ul {
+    list-style: none;
+}
+.tab-panel .main-skill ul li,
+.tab-panel .awards ul li,
+.tab-panel .experience ul li,
+.tab-panel .education ul li {
+    padding: 8px 0;
+    margin-bottom: 10px;
+    font-size: 17px;
+    color: #9a998d;
+}
+.tab-panel .main-skill ul li a,
+.tab-panel .awards ul li a,
+.tab-panel .experience ul li a,
+.tab-panel .education ul li a{
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #9a998d;
+}
+.tab-panel .main-skill ul li a span,
+.tab-panel .awards ul li a span,
+.tab-panel .experience ul li a span,
+.tab-panel .education ul li a span{
+    font-weight: normal;
+}
+
+
 
 
 
